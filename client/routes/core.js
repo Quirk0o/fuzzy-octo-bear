@@ -1,4 +1,8 @@
 
+Router.configure({
+  layoutTemplate: 'CoreLayout'
+});
+
 Router.route('/', function() {
-  this.render('home');
+  this.render('Home');
 });
